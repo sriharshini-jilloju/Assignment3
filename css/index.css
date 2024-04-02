@@ -1,0 +1,47 @@
+/* Sri Harshini Jilloju - N01649103 March 19th,2023*/
+body {
+    background-color: rgb(220, 172, 172);
+    /* Set background color for the body */
+    text-align: center;
+    /* Center align text within the body */
+}
+
+nav a {
+    text-decoration: none;
+    /* Remove underline from anchor links */
+    color: rgb(32, 6, 6);
+    /* Set text color for anchor links */
+    display: block;
+    /* Make anchor links display as blocks */
+    background-color: rgb(173, 95, 95);
+    /* Set background color for anchor links */
+    border: 2px solid rgb(220, 172, 172);
+    /* Set border for anchor links */
+    padding: 15px;
+    /* Add padding to anchor links */
+    text-transform: uppercase;
+    /* Transform text to uppercase */
+    font-weight: bolder;
+    /* Set font weight to bolder */
+}
+
+nav {
+    border: 2px solid rgb(32, 6, 6);
+    /* Set border for the navigation */
+    padding: 20px;
+    /* Add padding to the navigation */
+}
+
+h1 {
+    text-transform: uppercase;
+    /* Transform text to uppercase */
+    font-weight: bolder;
+    /* Set font weight to bolder */
+    color: rgb(32, 6, 6);
+    /* Set text color for the heading */
+}
+
+nav a:hover {
+    text-shadow: 0 0 10px rgb(32, 6, 6);
+    /* Add a glowing effect on hover */
+}

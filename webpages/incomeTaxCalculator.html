@@ -1,0 +1,53 @@
+<!--Sri Harshini Jilloju - N01649103 March 19th,2023-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Income Tax Calculator</title>
+    <!-- Linking external stylesheet -->
+    <link rel="stylesheet" href="../css/webpage3.css">
+</head>
+
+<body>
+    <!-- Form for income tax calculation -->
+    <form>
+        <!-- Fieldset for grouping form elements -->
+        <fieldset>
+            <!-- Heading of the page -->
+            <h1>Income Tax Calculator</h1>
+            <!-- Navigation links -->
+            <nav>
+                <a href="../index.html">Index</a>
+                <a href="./salestaxcalculator.html">Sales Tax Calculator</a>
+                <a href="./changecalculator.html">Change Calculator</a>
+                <a href="./incomeTaxCalculator.html">Income Tax Calculator</a>
+                <a href="./reservationRequest.html">Reservation Request</a>
+            </nav>
+            <hr>
+            <!-- Wrapper for input elements -->
+            <div id="wrapper">
+                <!-- Input field for taxable income -->
+                <label>Enter Taxable income: </label>
+                <input type="text" id="income" name="income">
+                <!-- Button to trigger calculation -->
+                <input type="button" id="calculate" name="calculate" value="Calculate" onclick="processEntry()"><br><br>
+                <!-- Result field for displaying income tax -->
+                <label>Income Tax owed: </label>
+                <input type="number" id="taxResult" name="taxResult" readonly><br><br>
+            </div>
+            <!-- Footer section -->
+            <footer>
+                <!-- Copyright information -->
+                <p>CopyRight &copy; Sri Harshini Jilloju - N01649103" 2024</p>
+            </footer>
+        </fieldset>
+    </form>
+    <!-- Script file for handling calculations -->
+    <script src="../js/webpage3.js"></script>
+</body>
+
+</html>

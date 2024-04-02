@@ -1,0 +1,97 @@
+<!--Sri Harshini Jilloju - N01649103 March 19th,2023-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation request</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="../css/webpages4.css">
+</head>
+
+<body>
+    <!-- Main container -->
+    <fieldset id="container">
+        <h1>Reservation Request</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <a href="../index.html">Index</a>
+            <a href="./salestaxcalculator.html">Sales Tax Calculator</a>
+            <a href="./changecalculator.html">Change Calculator</a>
+            <a href="./incomeTaxCalculator.html">Income Tax Calculator</a>
+            <a href="./reservationRequest.html">Reservation Request</a>
+        </nav>
+        <!-- Reservation request form -->
+        <form>
+            <!-- General Information section -->
+            <fieldset class="wrapper">
+                <legend>General Information</legend>
+                <label for="arrival_date">Arrival date:</label>
+                <input type="text" name="arrival_date" id="arrival_date" autofocus>
+                <span></span> <!-- Error message placeholder -->
+                <br><br>
+                <label for="nights">Nights:</label>
+                <input type="text" name="nights" id="nights">
+                <span></span> <!-- Error message placeholder -->
+                <br><br>
+                <label>Adults:</label>
+                <select name="adults" id="adults">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+                <label>Children:</label>
+                <select name="children" id="children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+            </fieldset>
+            <!-- Preferences section -->
+            <fieldset class="wrapper">
+                <legend>Preferences</legend>
+                <label>Room type:</label>
+                <input class="check" type="radio" name="room" id="standard" checked>Standard&nbsp;&nbsp;&nbsp;
+                <input class="check" type="radio" name="room" id="business">Business&nbsp;&nbsp;&nbsp;
+                <input class="check" type="radio" name="room" id="suite">Suite<br><br>
+                <label>Bed type:</label>
+                <input class="check" type="radio" name="bed" id="king" checked>King&nbsp;&nbsp;&nbsp;
+                <input class="check" type="radio" name="bed" id="double">Double Double<br><br>
+                <input class="check" type="checkbox" name="smoking" id="smoking">Smoking<br><br>
+            </fieldset>
+            <!-- Contact Information section -->
+            <fieldset class="wrapper">
+                <legend>Contact Information</legend>
+                <div class="wrapper">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                    <span></span> <!-- Error message placeholder -->
+                    <br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="999-999-9999">
+                    <span></span> <!-- Error message placeholder -->
+                    <br><br>
+                </div>
+            </fieldset>
+            <br>
+            <!-- Submit button -->
+            <input type="submit" id="submit" value="Submit Request"><br>
+        </form>
+        <!-- Footer section -->
+        <footer>
+            <p>CopyRight &copy; Sri Harshini Jilloju - N01649103" 2024</p>
+        </footer>
+    </fieldset>
+    <!-- JavaScript file -->
+    <script src="../js/webpage4.js"></script>
+</body>
+
+</html>

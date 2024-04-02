@@ -1,0 +1,68 @@
+/* Sri Harshini Jilloju - N01649103 March 19th,2023*/
+/* Center aligning text within the body */
+body {
+    text-align: center;
+}
+
+/* Styling for fieldset */
+fieldset {
+    background-color: rgb(216, 162, 192);
+}
+
+/* Styling for main content section */
+#content {
+    background-color: rgb(244, 215, 230);
+    padding: 20px;
+}
+
+/* Styling for h1 */
+h1 {
+    color: rgb(75, 2, 53);
+}
+
+/* Styling for footer */
+footer {
+    padding: 5px;
+    color: rgb(75, 2, 53);
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Styling for labels */
+label {
+    color: rgb(75, 2, 53);
+}
+
+/* Styling for calculate button */
+#calculate {
+    background-color: rgb(216, 162, 192);
+    font-weight: bolder;
+}
+
+/* Styling for horizontal rule */
+hr {
+    height: 2px;
+    background-color: rgb(75, 2, 53);
+    border: 0;
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none;
+    color: rgb(75, 2, 53);
+    background-color: rgb(244, 215, 230);
+    border: 2px solid rgb(75, 2, 53);
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+/* Styling for navigation menu */
+nav {
+    padding: 20px;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    box-shadow: 0 0 10px rgb(75, 2, 53);
+}

@@ -1,0 +1,87 @@
+/* Sri Harshini Jilloju - N01649103 March 19th,2023*/
+/* Center-align text within the body */
+body {
+    text-align: center;
+}
+
+/* Styling for the heading */
+h1 {
+    color: navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styling for paragraphs */
+p {
+    color: navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styling for the form */
+form {
+    background-color: rgb(94, 166, 196);
+    border: 0;
+}
+
+/* Styling for fieldset */
+fieldset {
+    border: 0;
+}
+
+/* Styling for labels */
+label {
+    color: navy;
+}
+
+/* Styling for footer */
+footer {
+    color: navy;
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Styling for the wrapper */
+#wrapper {
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+/* Styling for horizontal rule */
+hr {
+    height: 2px;
+    background-color: antiquewhite;
+    border: 0;
+}
+
+/* Styling for buttons */
+.button {
+    background-color: rgb(94, 166, 196);
+    color: navy;
+    font-weight: bold;
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none;
+    color: navy;
+    background-color: antiquewhite;
+    border: 2px solid navy;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+/* Styling for navigation */
+nav {
+    padding: 20px;
+}
+
+/* Styling for navigation links when hovered */
+nav a:hover {
+    box-shadow: 0 0 10px navy;
+    /* Glowing effect with a navy color */
+}
+
+/* Styling for the text */
+#text {
+    font-weight: bold;
+}

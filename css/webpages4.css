@@ -1,0 +1,82 @@
+/* Sri Harshini Jilloju - N01649103 March 19th,2023*/
+/* Styling for error messages */
+span {
+    color: red;
+}
+
+/* Styling for the container */
+#container {
+    background-color: rgb(161, 211, 205);
+}
+
+/* Styling for the heading */
+h1 {
+    color: rgb(3, 57, 51);
+    text-align: center;
+}
+
+/* Styling for wrapper elements */
+.wrapper {
+    background-color: rgb(250, 236, 218);
+    padding-top: 10px;
+    color: rgb(3, 66, 59);
+    margin-top: 5px;
+}
+
+/* Styling for footer */
+footer {
+    color: rgb(3, 66, 59);
+    text-align: center;
+}
+
+/* Styling for footer paragraph */
+footer p {
+    font-weight: bold;
+}
+
+/* Styling for inputs, selects, and labels */
+input,
+select,
+label {
+    color: rgb(3, 66, 59);
+}
+
+/* Styling for legends */
+legend {
+    color: rgb(3, 66, 59);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* Styling for checkboxes and radio buttons */
+.check {
+    color: rgb(3, 66, 59);
+}
+
+/* Styling for the submit button */
+#submit {
+    background-color: rgb(250, 236, 218);
+    font-weight: bold;
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none;
+    color: rgb(3, 66, 59);
+    background-color: rgb(250, 236, 218);
+    border: 2px solid rgb(3, 66, 59);
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+/* Styling for navigation menu */
+nav {
+    padding: 20px;
+}
+
+/* Styling for navigation links on hover */
+nav a:hover {
+    box-shadow: 0 0 10px rgb(3, 66, 59);
+    /* Glowing effect with a green color */
+}

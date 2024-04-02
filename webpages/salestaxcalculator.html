@@ -1,0 +1,58 @@
+<!--Sri Harshini Jilloju - N01649103 March 19th,2023-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sales Tax Calculator</title>
+    <!-- Linking to the external CSS file -->
+    <link rel="stylesheet" href="../css/webpage1.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <!-- Title of the page -->
+            <h1>Sales Tax Calculator</h1>
+            <!-- Navigation links -->
+            <nav>
+                <a href="../index.html">Index</a>
+                <a href="./salestaxcalculator.html ">Sales Tax Calculator</a>
+                <a href="./changecalculator.html">Change Calculator</a>
+                <a href="./incomeTaxCalculator.html">Income Tax Calculator</a>
+                <a href="./reservationRequest.html">Reservation Request</a>
+            </nav>
+            <hr>
+            <div id="wrapper">
+                <!-- Instructions for the user -->
+                <p id="text">Enter Subtotal and Tax Rate and click "Calculate".</p>
+                <!-- Input fields for subtotal and tax rate -->
+                <label for="subtotal">Subtotal:</label>
+                <input type="text" id="subtotal"><br><br>
+
+                <label for="tax_rate">Tax Rate:</label>
+                <input type="text" id="tax_rate"><br><br>
+
+                <!-- Input fields for displaying calculated values -->
+                <label for="sales_tax">Sales Tax:</label>
+                <input type="text" id="sales_tax" disabled><br><br>
+
+                <label for="total">Total:</label>
+                <input type="text" id="total" disabled><br><br>
+
+                <!-- Buttons for calculating and clearing -->
+                <label>&nbsp;</label>
+                <input class="button" type="button" id="calculate" value="Calculate">
+                <input class="button" type="button" id="clear" value="Clear"><br><br>
+            </div>
+            <!-- Footer section -->
+            <footer>
+                <p>CopyRights &copy; "Sri Harshini Jilloju - N01649103" 2024</p>
+            </footer>
+        </fieldset>
+    </form>
+    <!-- Linking to the external JavaScript file -->
+    <script src="../js/webpage1.js"></script>
+</body>
+
+</html>
